@@ -10,6 +10,8 @@ requestUrl = f"{BASE_URL}?appid={API_KEY}&q={city}"
 response = requests.get(requestUrl)
 if response.status_code == 200:
     data = response.json()
+    # print(data) prints all the data from the api
+     
     weather = data['weather'][0]['description']
     temp = data['main']['temp']
 
