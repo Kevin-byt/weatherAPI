@@ -1,0 +1,2 @@
+This program shows the weather of different cities within the world
+The different API calls used wih the API are described at https://openweathermap.org/api --> Create an account on the link site to get an API_KEY
